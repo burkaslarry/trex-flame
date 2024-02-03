@@ -1,10 +1,10 @@
 name: trex
 description: The trex game made with flame!
 
-version: 1.0.0+1
+version: 2.0.0
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '^3.3.0-279.3.beta'
 
 dependencies:
   flutter:
@@ -12,7 +12,7 @@ dependencies:
   flame: ^1.1.1
 
 dev_dependencies:
-  flutter_launcher_icons: ^0.7.3
+  flutter_launcher_icons: ^0.13.1
   flutter_test:
     sdk: flutter
 
@@ -27,3 +27,5 @@ flutter:
 
   assets:
     - assets/images/sprite.png
+    - assets/images/trex.png
+
